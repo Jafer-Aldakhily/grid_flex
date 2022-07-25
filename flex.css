@@ -1,0 +1,104 @@
+/* Navbar */
+div {
+    display: flex;
+    justify-content: center;
+}
+div > div{
+    height: 100px;
+    width: 60%;
+    background-color: #1B2430;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div div > nav ul:first-child{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+    color: #fff;
+    opacity: 0.5;
+}
+
+/* Hero image */
+
+section{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+section > img{
+    width: 50%;
+}
+
+/* Artical card */
+article{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+article > img{
+    width: 242px;
+    height: 200px;
+}
+
+/* Content section */
+
+article > section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+article >  section :nth-child(2){
+    width: 300px;
+    height: 300px;
+    overflow:scroll;
+    text-align: justify;
+}
+
+article >  section :nth-child(2):hover{
+    overflow:scroll;
+    cursor:grab;
+}
+
+article >  section :nth-child(3){
+    background-color: #1B2430;
+    color: #fff;
+    display: block;
+    margin-top: 10px;
+    padding: 3px;
+    border-radius: 4px 4px 4px 4px;
+    position: absolute;
+    right: 236px;
+    bottom: -20px;
+}
+
+
+
+
+/* Footer */
+
+footer{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+footer > div{
+    background-color: #1B2430;
+    width: 60%;
+    height: 100px;
+}
